@@ -9,7 +9,7 @@
  * Plugin Name: SSM Features
  * Plugin URI:  http://secretstache.com
  * Description: Enables a Feature Custom Post Type.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Secret Stache Media
  * Author URI:  http://secretstache.com
  * Text Domain: ssm-features
@@ -57,10 +57,10 @@ if ( is_admin() ) {
 
 }
 
-// require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
+require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
 
 $MyUpdateChecker = new PluginUpdateChecker_2_0 (
-    'https://kernl.us/api/v1/updates/58404da74201f306a6d77ea7/',
+    'https://kernl.us/api/v1/updates/5843032571a1e259570e384e/',
     __FILE__,
     'ssm-features',
     1
