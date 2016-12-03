@@ -1,6 +1,6 @@
 ## SSM Features
 
-This is a feature plugin that adds a simple feature custom post type to your theme.
+This plugin adds a simple feature custom post type to your theme.
 
 ### Description
 
