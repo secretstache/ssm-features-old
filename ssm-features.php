@@ -9,7 +9,7 @@
  * Plugin Name: SSM Features
  * Plugin URI:  http://secretstache.com
  * Description: Enables a Feature Custom Post Type.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      Secret Stache Media
  * Author URI:  http://secretstache.com
  * Text Domain: ssm-features
@@ -54,6 +54,14 @@ if ( is_admin() ) {
 
 	$post_type_admin = new SSM_Features_Admin( $post_type_registrations );
 	$post_type_admin->init();
+
+}
+
+add_action( 'admin_enqueue_scripts', 'ssm_services_admin_enqueue_scripts' );
+
+function ssm_features_admin_enqueue_scripts() {
+
+  wp_enqueue_style( 'ssm-features-css', plugins_url('admin.css', __FILE__ ) );
 
 }
 

@@ -73,7 +73,7 @@ class SSM_Features_Registrations {
 			'menu_position'   		=> 30,
 			'menu_icon'       		=> 'dashicons-admin-customizer',
 			'has_archive'					=> false,
-			'exclude_from_search'	=> false
+			'exclude_from_search'	=> true
 		);
 
 		$args = apply_filters( 'SSM_Features_args', $args );

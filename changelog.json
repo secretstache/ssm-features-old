@@ -1,4 +1,5 @@
 {
   "0.1.0" : "Initial release",
-  "0.1.1" : "Testing kernl integration"
+  "0.1.1" : "Testing kernl integration",
+  "0.1.2" : "Removes from search and fixes icon image on features column"
 }
